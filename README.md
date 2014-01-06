@@ -1,5 +1,3 @@
-Basic rust example project with multiple files.
+# Quickstart 
 
-## Quickstart
-
-    rustc main.rs; ./main
+    cd 
