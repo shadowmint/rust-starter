@@ -1,5 +1,3 @@
-use std::libc::{c_int};
-
 // Callback function!
 extern "C" fn callback(a:i32) {
   println!("Got a callback with {0}", a);
