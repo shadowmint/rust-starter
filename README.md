@@ -2,4 +2,8 @@ Basic rust example project with multiple files.
 
 ## Quickstart
 
-    rustc main.rs; ./main
+    rustc ./src/main.rs; ./main
+
+or
+
+    cargo build; ./target/main

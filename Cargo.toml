@@ -1,0 +1,8 @@
+[package]
+name = "starter"
+version = "0.0.1"
+authors = ["doug <linderd@iinet.net.au>"]
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
