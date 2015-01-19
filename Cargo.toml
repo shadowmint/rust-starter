@@ -3,6 +3,10 @@ name = "starter"
 version = "0.0.1"
 authors = ["doug <linderd@iinet.net.au>"]
 
+[lib]
+name = "foo"
+path = "src/lib.rs"
+
 [[bin]]
 name = "main"
 path = "src/main.rs"
