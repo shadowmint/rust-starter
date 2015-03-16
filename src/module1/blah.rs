@@ -1,3 +1,4 @@
 pub fn doit() {
-    println!("module1");
+  let value = fmt!(100);
+  println!("{:?}", value);
 }
