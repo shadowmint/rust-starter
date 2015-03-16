@@ -6,5 +6,6 @@ mod macros;
 mod bench;
 
 pub fn foo() {
+  let _ = fmt!("...");
   println!("Hi");
 }
