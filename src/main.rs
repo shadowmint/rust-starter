@@ -1,7 +1,8 @@
 extern crate foo;
 
 use module3::module4;
-use foo::foo;
+use foo::foo as foo_;
+use foo::Bar;
 
 #[macro_use]
 mod macros;
@@ -12,5 +13,6 @@ mod module3;
 
 fn main() {
     module4::blah::doit();
-    foo();
+    foo_();
+    let _ = Bar;
 }
