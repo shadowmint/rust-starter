@@ -12,7 +12,7 @@ mod module2;
 mod module3;
 
 fn main() {
-    module4::blah::doit();
-    foo_();
-    let _ = Bar;
+  module4::blah::doit();
+  foo_();
+  let _ = Bar;
 }

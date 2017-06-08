@@ -1,3 +1,3 @@
 pub fn doit() {
-    println!("module2");
+  println!("module2");
 }
